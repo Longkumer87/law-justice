@@ -5,13 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Government of Nagaland | Case Tracking Management System</title>
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css" rel="stylesheet">
 </head>
 
-<body class="bg-body-tertiary">
+<body class="bg" style="background-color: #F5F3FF">
 
     <div class="container">
 
@@ -22,10 +20,10 @@
                     <!-- header -->
                     <div class="card-header bg-primary text-white text-center py-4">
                         <img src="images/logo.png" class="img-fluid mb-3" width="130" alt="Government Logo">
-                        <h5 class="fw-bold mb-1"> Government of Nagaland </h5>
+                        <h6 class="fw-bold mb-1"> Government of Nagaland </h6>
                         <small> Law & Justice, Nagaland</small>
                         <hr class="border-light">
-                        <h4 class="fw-bold mb-0">Case Tracking Management System</h4>
+                        <h5 class="fw-bold mb-0">Case Tracking Management System</h5>
                     </div>
 
                     <!-- body -->
@@ -55,7 +53,7 @@
 
                     <!-- footer -->
                     <div class="card-footer text-center bg-white">
-                        <a href="forgot_password.php" class="text-decoration-none">
+                        <a href="forgotpassword.php" class="text-decoration-none">
                             <i class="bi bi-key-fill"></i> Forgot Password?
                         </a>
                     </div>
