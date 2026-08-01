@@ -4,25 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forgot Password | Case Tracking Management System</title>
+    <title>Forgot Password | Case Tracking System</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 
 <body class="d-flex flex-column min-vh-100 bg-light">
-
     <div class="container flex-grow-1 d-flex align-items-center">
-
         <div class="row justify-content-center w-100">
-
             <div class="col-12 col-sm-10 col-md-8 col-lg-5">
-
                 <div class="card shadow-lg border-0">
 
                     <!-- Card header -->
                     <div class="card-header bg-primary text-white text-center py-4">
-                       <h5 class="fw-bold mb-0">Case Tracking System</h5>
+                        <span class="fw-bold">CASE TRACKING SYSTEM</span>
                         <p class="mb-0">Forgot Password</p>
                     </div>
 
@@ -37,20 +33,24 @@
                         </div>
 
                         <!-- form to get otp -->
-                        <form action="#" method="POST">
-
-                            <div class="mb-4">
-                                <label class="form-label fw-semibold"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
-                                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
-                                    </svg>
-                                    Official Email Address</label>
-                                <input type="email" name="email" class="form-control form-control-lg" placeholder="email@gov.in" required>
+                        <form name="#" method="#">
+                            <div class="mb-3">
+                                <div class="input-group">
+                                    <div class="input-group-text">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                                        </svg>
+                                    </div>
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="username" name="username" placeholder="USERNAME" autocomplete="username" required>
+                                        <label for="username" class="form-label fst-italic">user email</label>
+                                    </div>
+                                </div>
                             </div>
 
-                            <div class="d-grid">
-                                <button type="submit" class="btn btn-primary btn-lg"> Send OTP</button>
+                            <div class="d-flex justify-content-end">
+                                <button type="submit" name="check" class="btn btn-primary fw-bold">Sent OTP</button>
                             </div>
-
                         </form>
 
                     </div>
@@ -75,30 +75,25 @@
 
 
     <div class="bg-dark py-3 mt-4">
-
         <div class="container text-light">
-            <h6 class="fw-bold mb-2">Need Assistance?</h6>
-            <small>
+            <span class="fw-bold fst-italic mb-2">Need Assistance?</span><br>
+            <small class="fst-italic">
                 For technical support, please contact: <br>
-                System Administrator<br>
-                Department of Law & Justice<br>
-                Government of Nagaland<br>
-                Email: system_admin@gov.in <br>
-                Phone: +91-XXXXXXXXXX </small>
+                System Administrator,<br>
+                Department of Law & Justice, Government of Nagaland<br>
+                Email: system_admin@gov.in
+            </small>
         </div>
-
         <!-- Footer -->
-        <footer class="container text-center text-light py-3">
-            <hr>
-
-            <small>
+        <hr class="border-light">
+        <footer class="d-flex justify-content-evenly text-light">
+            <small class="fw-lighter">
                 &copy;2026 All rights reserved.
-                <br>
+            </small>
+            <small class="fw-lighter">
                 Site Designed and Developed by eCourts Team Nagaland.
             </small>
-
         </footer>
-
     </div>
 
 

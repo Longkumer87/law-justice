@@ -89,31 +89,26 @@
 
     </div>
 
-    <div class="bg-dark py-3 mt-4">
-
+       <div class="bg-dark py-3 mt-4">
         <div class="container text-light">
-            <h6 class="fw-bold mb-2">Need Assistance?</h6>
-            <small>
+            <span class="fw-bold fst-italic mb-2">Need Assistance?</span><br>
+            <small class="fst-italic">
                 For technical support, please contact: <br>
-                System Administrator<br>
-                Department of Law & Justice<br>
-                Government of Nagaland<br>
-                Email: system_admin@gov.in <br>
-                Phone: +91-XXXXXXXXXX </small>
+                System Administrator,<br>
+                Department of Law & Justice, Government of Nagaland<br>
+                Email: system_admin@gov.in
+            </small>
         </div>
-
         <!-- Footer -->
-        <footer class="container text-center text-light py-3">
-            <hr>
-
-            <small>
+        <hr class="border-light">
+        <footer class="d-flex justify-content-evenly text-light">
+            <small class="fw-lighter">
                 &copy;2026 All rights reserved.
-                <br>
+            </small>
+            <small class="fw-lighter">
                 Site Designed and Developed by eCourts Team Nagaland.
             </small>
-
         </footer>
-
     </div>
 
 </body>
