@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unauthorized Access | Case Tracking Management System</title>
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="d-flex flex-column min-vh-100 bg-light">
+
+    <div class="container flex-grow-1 d-flex align-items-center">
+
+        <div class="row justify-content-center w-100">
+
+            <div class="col-12 col-md-8 col-lg-6">
+
+                <div class="card shadow-lg border-0">
+
+                    <!-- Header -->
+                    <div class="card-header bg-danger text-white text-center py-4">
+
+                        <h3 class="fw-bold mb-1">
+                             Unauthorized Access
+                        </h3>
+
+                       
+                    </div>
+
+                    <!-- Body -->
+                    <div class="card-body text-center p-5">
+
+                        <!-- Lock Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             width="80"
+                             height="80"
+                             fill="currentColor"
+                             class="text-danger mb-3"
+                             viewBox="0 0 16 16">
+                            <path d="M8 1a2 2 0 0 0-2 2v3h4V3a2 2 0 0 0-2-2"/>
+                            <path d="M3 6V5a5 5 0 0 1 10 0v1h1a1 1 0 0 1 1 1v7a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a1 1 0 0 1 1-1zm1 0h8V5a4 4 0 0 0-8 0z"/>
+                        </svg>
+
+                        <h2 class="fw-bold text-danger">
+                            Access Denied
+                        </h2>
+
+                        <p class="text-muted mt-3">
+                            You are not authorized to access this page.
+                            <br>
+                            Please log in with a valid account to continue.
+                        </p>
+
+                        <div class="mt-4">
+
+                            <a href="index.php" class="btn btn-primary me-2">
+                                Back to Login
+                            </a>
+
+                            <button class="btn btn-outline-secondary" onclick="history.back()">
+                                Go Back
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+ 
+</body>
+
+</html>
