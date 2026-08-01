@@ -33,7 +33,7 @@
                         </div>
 
                         <!-- form to get otp -->
-                        <form name="#" method="#">
+                        <form name="#" method="post">
                             <div class="mb-3">
                                 <div class="input-group">
                                     <div class="input-group-text">
@@ -42,8 +42,8 @@
                                         </svg>
                                     </div>
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="username" name="username" placeholder="USERNAME" autocomplete="username" required>
-                                        <label for="username" class="form-label fst-italic">user email</label>
+                                        <input type="email" class="form-control" id="useremail" name="useremail" placeholder="USERNAME" autocomplete="username" required>
+                                        <label for="email" class="form-label fst-italic">user email</label>
                                     </div>
                                 </div>
                             </div>

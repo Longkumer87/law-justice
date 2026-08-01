@@ -34,14 +34,11 @@
                             A 6-digit OTP has been sent to your registered email address. Please enter it below.
                         </div>
 
-                        <form action="reset_password.php" method="POST">
-
+                        <form action="#" method="POST">
                             <label class="form-label fw-semibold">Enter 6-Digit OTP</label>
-
                             <div class="d-flex justify-content-center gap-2 mb-4">
-
                                 <input type="text" class="form-control text-center otp-input"
-                                    maxlength="1" id="opt" name="otp" inputmode="numeric"  required>
+                                    maxlength="1" id="opt" name="otp" inputmode="numeric" required>
 
                                 <input type="text" class="form-control text-center otp-input"
                                     maxlength="1" id="otp" name="otp" inputmode="numeric" required>
